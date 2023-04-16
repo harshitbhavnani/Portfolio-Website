@@ -1,10 +1,10 @@
 
-import profile from './profile.png';
+import profile from './profile.jpg';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Home",
 	links: [
 		{
 			title: "About",
@@ -22,46 +22,56 @@ export const navigation = {
 			title: "Links",
 			link: "/links",
 		},
+		{
+			title: "Blog",
+			link: "https://harshitbhavnani.wixsite.com/shiftingparadigms",
+		},
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Harshit Bhavnani",
+	description: "Data Science Graduate with a major in Business Analytics and prior experience in Technology Sales, Data Analytics, Quantitative Finance, Product Management & Sustainability Consulting.",
 	image: profile.src,
 	buttons: [
 		{
-			title: "Contact Me",
+			title: "Contact",
 			link: "#contact",
 			isPrimary: true,
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/1tjW90YdP93U9C6gqpgB88LTOmSgi85lj/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
 }
 
 export const about = {
-	title: "Who I am",
+	title: "About",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"As a Data Science graduate with a passion for statistical analysis, I am eager to leverage my skills and knowledge in a challenging techno-managerial role within the Banking, Financial Markets, Strategy, and Risk Advisory sectors.",
+		"Throughout my undergraduate studies, I was actively involved in student leadership roles and honed my debating skills, leading to my personal growth and development as a polished individual. I also founded a youth organization, organized multiple events, and received seed funds to start a social venture in the ed-tech sector.",
+		"My contributions were recognized by my university, which awarded me the Student Ambassador Award for representing them at national and international events. I also earned a spot on the coveted list of India's brightest engineering minds, as part of the Economic Times Campus Stars competition, where engineering students from all around the country competed for the title.",
+		"With experience in sustainability consulting, quantitative finance, product management, and technology management, I am confident that my versatile background and skills can bring value to a dynamic team and drive impactful solutions.",
 	],
 }
 
 export const work = {
-	title: "What I do",
+	title: "Core Competencies",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			title: "Data Analytics",
+			description: "Statistical Analysis & Data Modelling for Technology-Driven Decision Making",
 			icons: null,
 		},
 		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
+			title: "Technology Sales",
+			description: "Managing Complex Sales Cycles, Closing Deals & Delivering Solutions",
+			icons: null,
+		},
+		{
+			title: "Product Strategy",
+			description: "Developing & Managing Products aligning with Market Demand & Business Goals",
 			icons: null,
 		}
 	],
@@ -71,58 +81,32 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
-				},
-			]
+			title: "Twenty-First Century African Youth Movement",
+			description: "Managed AYM's $10k Google Ads campaign to increase donations, reach wider audience, recruit diverse volunteers, and promote social events.",
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-				},
-			]
+			title: "Intraday Trading Calls",
+			description: "Executable intraday trading tool generating buy-sell calls based on technical analysis for stocks listed in the NSE of India.",
 		},
 		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-			icons: [
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
-				},
-			]
+			title: "Park Street Journal",
+			description: "Founded a youth organization working as a digital news agency with the aim of providing unbiased, unfiltered & accurate information to the youth of India.",
 		},
 	],
 }
 
 export const contact = {
-	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	title: "Contact",
+	description: "Feel free to get in touch with me via email or connect with me on LinkedIn.",
 	buttons: [
 		{
-			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			title: "Email",
+			link: "mailto:harshit.bhavnani@gmail.com",
 			isPrimary: true,
 		},
 		{
-			title: "Schedule Meeting",
-			link: "",
+			title: "LinkedIn",
+			link: "https://www.linkedin.com/in/harshitbhavnani/",
 			isPrimary: false,
 		},
 	]
@@ -131,35 +115,23 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Harshit Bhavnani | Analytics | Product | Strategy",
+	description: "Data Science Graduate with a major in Business Analytics & experience in Technology Sales, Data Analytics, Quantitative Finance, Product Management & Consulting",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@harshitbhavnani",
+	description: "Analytics | Product | Strategy",
 	cards: [
 		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
+			title: "LinkedIn",
+			link: "https://www.linkedin.com/in/harshitbhavnani/",
 		},
 		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
-		},
-		{
-			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
-		},
-		{
-			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			title: "Github",
+			link: "https://github.com/harshitbhavnani",
 		},
 	]
 }
