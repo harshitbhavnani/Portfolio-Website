@@ -22,10 +22,6 @@ export const navigation = {
 			title: "Links",
 			link: "/links",
 		},
-		{
-			title: "Blog",
-			link: "https://harshitbhavnani.wixsite.com/shiftingparadigms",
-		},
 	],
 }
 export const intro = {
@@ -33,6 +29,11 @@ export const intro = {
 	description: "Data Science Graduate with a major in Business Analytics and prior experience in Technology Sales, Data Analytics, Quantitative Finance, Product Management & Sustainability Consulting.",
 	image: profile.src,
 	buttons: [
+		{
+			title: "Blog",
+			link: "https://harshitbhavnani.wixsite.com/shiftingparadigms",
+			isPrimary: false,
+		},
 		{
 			title: "Contact",
 			link: "#contact",
@@ -133,5 +134,9 @@ export const links = {
 			title: "Github",
 			link: "https://github.com/harshitbhavnani",
 		},
-	]
+		{
+			title: "Blog",
+			link: "https://harshitbhavnani.wixsite.com/shiftingparadigms",
+		},
+	],
 }
